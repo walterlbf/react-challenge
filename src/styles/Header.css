@@ -14,7 +14,6 @@ body{
     /* opacity: 20%; */
 }
 
-
 @media (max-width: 360px){
     .header{
         background: url('/src/img/Image.png')no-repeat, linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);

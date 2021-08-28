@@ -1,11 +1,12 @@
 import React from 'react';
 import '../styles/Header.css';
+import Navbar from './Navbar';
 export default function Header() {
   return (
     <>
-      <div className="header">
-      olá mundinho
-      </div>
+      <section className="header">
+        <Navbar/>
+      </section>
     </>
   )
 }
