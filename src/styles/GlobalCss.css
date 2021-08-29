@@ -1,11 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    
 }
 
 body{
-    max-width: 1440px;
-    background: #F2F2F2;
-    font: 16px "Inter";
+  max-width: 1440px;
+  background: #F2F2F2;
+  font-family: Inter, sans-serif;
 }
