@@ -1,11 +1,13 @@
 import React from 'react';
 import '../styles/Navbar.css';
+import Logo from '../img/logo.svg';
 
 export default function Navbar() {
 return (
   <>
-    <nav >
-      <ul className="navbar">
+    <nav>
+      <img className="logo" src={Logo} alt="" />
+      {/* <ul className="navbar">
         <li>
           <a href="">Create Your Nanny Share</a>
         </li>
@@ -15,7 +17,8 @@ return (
         <li>
           <a href="">Our Story</a>
         </li>
-      </ul>
+      </ul> */}
+      <button>Become a Nanny Share Host</button>
     </nav>
   </>
 )

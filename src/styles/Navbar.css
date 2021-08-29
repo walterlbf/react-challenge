@@ -5,3 +5,10 @@
     /* justify-content: space-between; */
     margin-right: 32px;
 }
+
+.logo {
+    position: relative;
+    width: 48px;
+  margin-left: 16px;
+  margin-right: 40px;
+}
