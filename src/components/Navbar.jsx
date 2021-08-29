@@ -18,7 +18,6 @@ return (
           <a href="">Our Story</a>
         </li>
       </ul> */}
-      
       <button>Become a Nanny Share Host</button>
     </nav>
   </>
