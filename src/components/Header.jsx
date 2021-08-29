@@ -18,10 +18,10 @@ export default function Header() {
             </p>
           </article>
         </div>
-          <a href="/">
+          <div className="playLink">
             <img src={ playImage } alt="" />
-            See hapu in action (27 seconds)
-          </a>
+            <a href="/">See hapu in action (27 seconds)</a>
+          </div>
       </section>
     </>
   )
