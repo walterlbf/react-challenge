@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   color: #ffff;
 }
 
@@ -13,5 +13,4 @@ body{
   max-width: 1440px;
   background: #F2F2F2;
   font-family: Inter, sans-serif;
-  /* display: block; */
 }

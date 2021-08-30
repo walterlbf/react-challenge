@@ -1,0 +1,35 @@
+.share-title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: #3D3D3D;
+}
+
+.share-p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #3D3D3D;
+}
+
+@media (max-width: 340px){
+  
+  .share-section {
+    margin: 64px 4.5vw;
+    text-align: center;
+    flex-direction: column-reverse;
+    grid-gap: 24px;
+    gap: 24px;
+  }
+
+  .share-title {
+    margin: 16px;
+  }
+
+  .share-p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+}

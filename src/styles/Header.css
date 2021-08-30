@@ -33,11 +33,11 @@
     height: auto;
   }
 
-  article {
+  .article-header {
     margin-top: 70px;
   }
 
-  h1 {
+  .header-h1 {
     font-weight: 500;
     font-size: 28px;
     line-height: 32px;

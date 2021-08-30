@@ -9,8 +9,8 @@ export default function Header() {
       <section className="header">
         <Navbar/>
         <div className="article-div">
-          <article>
-            <h1>
+          <article className="article-header">
+            <h1 className="header-h1">
               Easily create or join a local nanny share with Hapu
             </h1>
             <p>
