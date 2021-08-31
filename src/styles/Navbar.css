@@ -12,7 +12,7 @@
   margin-right: 40px;
 }
 
-button {
+.button-navbar {
   position: absolute;
   box-shadow: none;
   width: 234px;

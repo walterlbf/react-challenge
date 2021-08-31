@@ -4,12 +4,23 @@
   line-height: 32px;
   text-align: center;
   color: #3D3D3D;
+  margin: 24px 71px 16px;
 }
 
 .share-p{
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 28px;
+  margin: 16px 16px 24px;
   color: #3D3D3D;
+}
+
+a:visited {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #5E20A4;
 }
 
 @media (max-width: 340px){
@@ -27,9 +38,11 @@
   }
 
   .share-p{
-    font-size: 16px;
-    line-height: 28px;
     text-align: center;
+  }
+
+  .share-article{
+    align-items: center;
   }
 
 }

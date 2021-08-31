@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #ffff;
+  /* color: #ffff; */
 }
 
 button {
@@ -13,4 +13,15 @@ body{
   max-width: 1440px;
   background: #F2F2F2;
   font-family: Inter, sans-serif;
+}
+
+.divider{
+  border: 2px solid #DFDFDF;
+  margin: 16px;
+}
+
+@media (max-width: 340px) {
+  .divider{
+    margin: 16px;
+  }
 }

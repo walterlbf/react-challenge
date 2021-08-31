@@ -13,12 +13,18 @@
   height: 100%;
   margin-left: 8vw;
   width: 80vw;
+  color: #ffff;
 }
 
 .playLink {
   margin-left: 10px;
   align-items: center;
-  display: inline-flex
+  display: inline-flex;
+  color: #ffff;
+}
+
+.tag-a-header{
+  color: #ffff;
 }
 
 @media (max-width: 360px){
@@ -43,7 +49,7 @@
     line-height: 32px;
     display: flex;
     text-align: center;
-    margin: 16px;
+    margin: 16px 32px;
   }
 
   p {
