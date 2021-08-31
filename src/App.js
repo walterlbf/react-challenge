@@ -1,6 +1,7 @@
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Payment from "./components/Payment";
+import Principles from "./components/Principles";
 import Profile from "./components/Profile";
 import Share from "./components/Share";
 import './styles/GlobalCss.css';
@@ -15,6 +16,8 @@ function App() {
       <Contact />
       <div className="divider" />
       <Payment />
+      <div className="divider" />
+      <Principles />
       <div className="divider" />
     </div>
   );
