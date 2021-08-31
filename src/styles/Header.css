@@ -20,11 +20,11 @@
   margin-left: 10px;
   align-items: center;
   display: inline-flex;
-  color: #ffff;
 }
 
-.tag-a-header{
+#tag-a-header{
   color: #ffff;
+  margin-left: 16px;
 }
 
 @media (max-width: 360px){

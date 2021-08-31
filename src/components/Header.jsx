@@ -20,7 +20,7 @@ export default function Header() {
         </div>
           <div className="playLink">
             <img src={ playImage } alt="" />
-            <a className="tag-a-header" href="/">See hapu in action (27 seconds)</a>
+            <a id="tag-a-header" href="/">See hapu in action (27 seconds)</a>
           </div>
       </section>
     </>
