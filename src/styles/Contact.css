@@ -14,7 +14,6 @@
   font-weight: 500;
   color: #3D3D3D;
   text-align: center;
-  margin: 64px 16px 16px;
 }
 
 .p-contact {
@@ -28,10 +27,17 @@
   justify-content: center;
 }
 
-@media (max-width: 340px){
+@media (max-width: 360px){
 
   .form-section{
     margin: 64px 4.5vw;
+  }
+  .forms {
+    flex-direction: column;
+  }
+
+  .h2-contact{
+    margin: 64px 16px 16px;
   }
 
   input {

@@ -1,0 +1,12 @@
+.article-payment{
+  color: #3D3D3D;
+}
+
+@media (max-width: 360px) {
+  .payment-h2 {
+    margin: 16px 40px 67px;
+  }
+  .payment-p{
+
+  }
+}

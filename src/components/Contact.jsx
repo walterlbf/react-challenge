@@ -12,8 +12,8 @@ export default function Contact() {
 				  Leave us your name and email and we’ll update you as soon as a share becomes available in your area!
 				</p>
 				<form className="forms">
-          {/* <input placeholder="Your name" required />
-          <input type="email" placeholder="Your email" required /> */}
+          <input placeholder="Your name" required />
+          <input type="email" placeholder="Your email" required />
           <button className="send-button">
             Send
           </button>
