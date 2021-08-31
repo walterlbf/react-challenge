@@ -1,12 +1,22 @@
 .article-payment{
   color: #3D3D3D;
+  align-items: center;
+  text-align: center;
 }
 
 @media (max-width: 360px) {
   .payment-h2 {
-    margin: 16px 40px 67px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 40px 67px 16px;
   }
   .payment-p{
-
+    text-align: center;
+    margin: 16px 16px 24px 16px;
+  }
+  .article-payment{
+    margin-bottom: 64px;
   }
 }
