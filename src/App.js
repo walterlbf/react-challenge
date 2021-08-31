@@ -1,5 +1,6 @@
 import Contact from "./components/Contact";
 import Header from "./components/Header";
+import News from "./components/News";
 import Payment from "./components/Payment";
 import Principles from "./components/Principles";
 import Profile from "./components/Profile";
@@ -19,6 +20,7 @@ function App() {
       <div className="divider" />
       <Principles />
       <div className="divider" />
+      <News />
     </div>
   );
 }
