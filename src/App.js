@@ -9,7 +9,7 @@ import './styles/GlobalCss.css';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Profile />
       <Share />
@@ -21,7 +21,7 @@ function App() {
       <Principles />
       <div className="divider" />
       <News />
-    </div>
+    </>
   );
 }
 
