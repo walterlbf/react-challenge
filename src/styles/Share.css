@@ -1,48 +1,39 @@
-.share-title {
+.share-section {
   font-weight: 500;
-  font-size: 22px;
-  line-height: 32px;
-  text-align: center;
   color: #3D3D3D;
-  margin: 24px 71px 16px;
 }
 
 .share-p{
-  font-size: 1rem;
-  line-height: 28px;
-  margin: 16px 16px 24px;
-  color: #3D3D3D;
-}
-
-a:visited {
-  text-align: center;
-  font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  text-decoration-line: underline;
-  color: #5E20A4;
+  line-height: 28px;
 }
 
-@media (max-width: 340px){
+.share-h2{
+  font-size: 22px;
+  line-height: 32px;
+}
+
+@media (max-width: 360px){
   
   .share-section {
-    margin: 64px 4.5vw;
     text-align: center;
     flex-direction: column-reverse;
-    grid-gap: 24px;
-    gap: 24px;
+    margin: 16px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+  
+  .share-picture {
+    margin: auto;
+    margin-top: 36px;
   }
 
-  .share-title {
-    margin: 16px;
+  .share-h2{
+    margin: 24px 71px 16px;
   }
 
   .share-p{
     text-align: center;
+    margin: 16px 0px 24px;
   }
-
-  .share-article{
-    align-items: center;
-  }
-
 }

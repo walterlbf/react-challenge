@@ -5,21 +5,20 @@ import ShareImage from '../img/ImageSection1.png';
 export default function Share() {
   return (
     <section className="share-section">
-      <img src={ShareImage} alt="" />
+      <picture className="share-picture">
+        <img src={ShareImage} alt="" />
+      </picture>
       <article>
-        <div className= "share-article">
-          <h2 className="share-title">
+        <h2 className="share-h2">
           Share your home, nanny and costs
-          </h2>
-          <p className="share-p">
+        </h2>
+        <p className="share-p">
           You have a fantastic home, a fantastic nanny and wouldn’t cutting your costs in half be, well, fantastic?! If only it was easy to connect with other parents to share your costs? Well now it is, with Hapu. <a href="/">Hapu means tribe</a> and it’s our foundational 3 tribal principles that empowers you to create and manage your own tribe. A tribe that together has the power to create new affordable solutions in childcare that work for you and your community.
-          </p>
-          <a className="share-a" href="/">
-            Ready to get started?
-          </a>
-        </div>
+        </p>
+        <a href="/">
+          Ready to get started?
+        </a>
       </article>
-
     </section>
   )
 }
