@@ -2,6 +2,9 @@ import React from 'react';
 import '../styles/Footer.css';
 import calendarIcon from '../img/CalendarIcon.svg';
 import Logo from '../img/Logo.svg';
+import facebook from '../img/Facebook.svg';
+import instagram from '../img/Instagram.svg';
+import twitter from '../img/Twitter.svg';
 
 export default function Footer() {
   return (
@@ -33,24 +36,40 @@ export default function Footer() {
           </a>
         </article>
       </section>
-      <section>
-        <picture>
+      <section className="footer-nav">
+        <picture className="picture-logo">
           <img src={ Logo } alt="Hapu Logo" />
         </picture>
         <nav>
           <ul>
-            <li>Share Your Nanny</li>
-            <li>Our Story</li>
-            <li>Blog</li>
-            <li>Terms & Privacy</li>
+            <li>
+              Share Your Nanny
+            </li>
+            <li>
+              Our Story
+            </li>
+            <li>
+              Blog
+            </li>
+            <li>
+              Terms &amp; Privacy
+            </li>
           </ul>
         </nav>
-        <picture>
-         
-        </picture>
       </section>
-      <div className="divider"></div>
-      <p>
+      <section className="social-icons">
+        <a href='https://www.facebook.com/hapunui' target='_blank'>
+          <img src={facebook} alt='Facebook of Hapu' />
+        </a>
+        <a href='https://twitter.com/hapunui' target='_blank'>
+          <img src={twitter} alt='Twitter of Hapu' />
+        </a>
+        <a href='https://www.instagram.com/hapunui' target='_blank'>
+          <img src={instagram} alt='Instagram of Hapu' />
+        </a>
+      </section>
+      <div className="divider-footer"></div>
+      <p className="copyright">
         Copyright © 2017 Hapu PTY Limited All rights reserved
       </p>
     </footer>

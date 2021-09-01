@@ -16,7 +16,7 @@ body{
 
 .divider{
   border: 2px solid #DFDFDF;
-  margin: 16px;
+  margin: 0px 16px;
 }
 
 @media (max-width: 340px) {
