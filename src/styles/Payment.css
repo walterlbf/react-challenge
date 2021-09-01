@@ -1,22 +1,29 @@
-.article-payment{
+.section-payment{
   color: #3D3D3D;
-  align-items: center;
-  text-align: center;
+  font-weight: 500;
+}
+
+.payment-h2{
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.payment-p {
+  font-size: 16px;
+  line-height: 28px;
 }
 
 @media (max-width: 360px) {
-  .payment-h2 {
+
+  .section-payment{
+    margin: 64px 16px;
     text-align: center;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 32px;
+  }
+
+  .payment-h2 {
     margin: 40px 67px 16px;
   }
   .payment-p{
-    text-align: center;
-    margin: 16px 16px 24px 16px;
-  }
-  .article-payment{
-    margin-bottom: 64px;
+    margin-bottom: 24px;
   }
 }

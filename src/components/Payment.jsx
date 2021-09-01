@@ -4,11 +4,11 @@ import paymentImage from "../img/ImageSection3.png";
 
 export default function Payment() {
   return (
-    <section>
+    <section className="section-payment">
       <picture className="picture-payment">
         <img src={ paymentImage } alt="" />
       </picture>
-      <article className="article-payment">
+      <article>
         <h2 className="payment-h2">
           Shared payments made simple
         </h2>
