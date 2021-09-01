@@ -8,14 +8,30 @@
   opacity: 0.2; */
 }
 
-.article-div {
-  align-items: center;
+.header-h1 {
+  font-size: 40px;
+  line-height: 48px;
+  /* align-items: center; */
+  letter-spacing: -1px;
+  font-weight: 500;
+  margin-right: 80px;
+  margin-bottom: 24px;
+}
+
+.flex-section {
   display: flex;
-  gap: 15vw;
-  height: 100%;
-  margin-left: 8vw;
-  width: 80vw;
-  color: #ffff;
+}
+
+.header-img {
+  height: auto;
+  width: auto;
+  margin-right: 188px;
+  margin-top: 105px;
+  margin-bottom: 156px;;
+}
+
+.article-header {
+  margin: 152px 120px 0px 128px; 
 }
 
 .playLink {
@@ -24,23 +40,33 @@
   display: inline-flex;
 }
 
+.header-p {
+  margin-bottom: 40px;
+  margin-right: 90px;
+}
+
 #tag-a-header{
   color: #ffff;
   margin-left: 16px;
 }
 
 @media (max-width: 360px){
+
+  .header-picture {
+    display: none;
+  }
+
   .header{
     background: url('/src/img/Image.png')no-repeat, linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
     height: 540px
   }
 
   .article-header {
+    margin: 0;
     margin-top: 70px;
   }
 
   .header-h1 {
-    font-weight: 500;
     font-size: 28px;
     line-height: 32px;
     display: flex;
