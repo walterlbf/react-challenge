@@ -15,14 +15,19 @@ export default function Footer() {
             Takes less than 5 minutes to get started
           </p>
           <button className="footer-button">
-            <img src={ calendarIcon } alt="" />
-            <span>
-              Create Your Nanny Share
-            </span>
-            <span>
-              Takes less than 5 minutes
-            </span>
+            <picture className="picture-calendar">
+              <img src={ calendarIcon } alt="" />
+            </picture>
+            <div className="flex-button">
+              <span className="span-1">
+                Create Your Nanny Share
+              </span>
+              <span className="span-2">
+                Takes less than 5 minutes
+              </span>
+            </div>
           </button>
+
           <a href="/">
             Or browse local nanny-shares
           </a>

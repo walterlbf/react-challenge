@@ -9,6 +9,11 @@
   line-height: 32px;
 }
 
+.news-p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
 @media (max-width: 360px) {
 
   .news-section{
