@@ -1,16 +1,19 @@
 .share-section {
   font-weight: 500;
   color: #3D3D3D;
+  text-align: center;
 }
 
 .share-p{
   font-size: 16px;
   line-height: 28px;
+  font-weight: 500;
 }
 
 .share-h2{
   font-size: 22px;
   line-height: 32px;
+  font-weight: 500;
 }
 
 @media (max-width: 360px){

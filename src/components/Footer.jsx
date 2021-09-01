@@ -1,18 +1,17 @@
 import React from 'react';
 import '../styles/Footer.css';
-import socialMedia from '../img/Socialmedia.svg';
 import calendarIcon from '../img/CalendarIcon.svg';
 import Logo from '../img/Logo.svg';
 
 export default function Footer() {
   return (
     <footer>
-      <section>
+      <section className="footer-section">
         <article>
-          <h2>
+          <h2 className="footer-h2">
             Become a nanny share host
           </h2>
-          <p>
+          <p className="footer-p">
             Takes less than 5 minutes to get started
           </p>
           <button className="footer-button">
@@ -42,7 +41,7 @@ export default function Footer() {
           </ul>
         </nav>
         <picture>
-          <img src={ socialMedia } alt="Hapu Logo" />
+         
         </picture>
       </section>
       <div className="divider"></div>

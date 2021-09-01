@@ -1,10 +1,26 @@
 footer {
   background-color: #FFFFFF;
+  color: #3D3D3D;
+  font-weight: 500;
+}
+
+.footer-h2 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+
 }
 
 .divider {
   border: 1px solid #DFDFDF;
 }
+
+.footer-p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
 .footer-button {
   background: #5E20A4;
   border-radius: 4px;
@@ -13,4 +29,16 @@ footer {
 
 @media (max-width: 360px) {
 
+  footer {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .footer-h2{
+    margin: 0px 34px;
+  }
+
+  .footer-p {
+    margin: 0px 26px 24px;
+  }
 }
