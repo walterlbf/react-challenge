@@ -1,4 +1,5 @@
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import News from "./components/News";
 import Payment from "./components/Payment";
@@ -21,6 +22,7 @@ function App() {
       <Principles />
       <div className="divider" />
       <News />
+      <Footer />
     </>
   );
 }
