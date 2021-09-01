@@ -1,16 +1,19 @@
 .profile-section {
-  /* flex-direction: column;  */
-  height: 216px;
+  height: 116px;
   display: flex;
-  /* justify-content: center; */
   border: 1px solid #DFDFDF;
   background-color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
 }
 
 .info {
+  align-items: center;
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
+  margin-left: 32px;
 }
 
 .profile-a {
@@ -20,6 +23,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  margin-right: 2px;
 }
 
 .-profile-p{
@@ -37,6 +41,7 @@
   }
 
   .profile-section {
+    height: 216px;
     justify-content: center;
     border: 1px solid #DFDFDF;
     flex-direction: column;
@@ -47,6 +52,7 @@
   }
 
   .info{
+    margin: 0px;
     flex-direction: column;
     text-align: center;
     grid-gap: 12px;
