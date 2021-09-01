@@ -1,24 +1,12 @@
-/* .form-section {
-  margin: 64px 4.5vw;
-  align-items: center;
-  color: #3d3d3d;
+.contact-section {
+  color: #3D3D3D;
+  font-weight: 500;
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin: 64px auto;
-} */
+}
 
 .h2-contact {
   font-size: 22px;
   line-height: 32px;
-  font-weight: 500;
-  color: #3D3D3D;
-  text-align: center;
-}
-
-.p-contact {
-  margin: 16px;
-  color: #3D3D3D;
 }
 
 .forms {
@@ -29,15 +17,21 @@
 
 @media (max-width: 360px){
 
-  .form-section{
-    margin: 64px 4.5vw;
+  .contact-section {
+    margin: 64px 16px;
+    text-align: center;
   }
+
   .forms {
     flex-direction: column;
   }
 
   .h2-contact{
-    margin: 64px 16px 16px;
+    margin-bottom: 16px;
+  }
+  
+  .p-contact {
+    margin-bottom: 32px;
   }
 
   input {
@@ -45,6 +39,7 @@
     border: 1px solid #DFDFDF;
     box-sizing: border-box;
     border-radius: 4px;
+    height: 48px;
   }
 
   .send-button{
@@ -56,10 +51,7 @@
     font-size: 0.8rem;
     overflow: hidden;
     padding: 12px 21px;
-    /* position: relative; */
     transition-duration: 0.5s;
     height: 44px;
-    margin: 0;
   }
-
 }

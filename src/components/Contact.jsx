@@ -3,8 +3,8 @@ import '../styles/Contact.css';
 
 export default function Contact() {
 	return (
-		<section>
-			<article className=".form-section">
+		<section className="contact-section">
+			<article>
 				<h2 className="h2-contact">
 				  Are you a parent without a nanny and looking to share?
 				</h2>
