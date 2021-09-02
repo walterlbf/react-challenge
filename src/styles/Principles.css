@@ -1,31 +1,52 @@
-.principles-section{
+.framework-section{
  color: #3D3D3D;
+ text-align: center;
+ margin: 96px 228px 104px;
+}
+
+.framework-title {
+  font-weight: 500;
+  margin-bottom: 40px;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.framework-p {
+  margin: 40px 100px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.framework-article {
+  margin-bottom: 64px;
 }
 
 @media (max-width: 360px){
 
-  .principles-section{
+  .framework-picture {
+    display: none;
+  }
+
+  .framework-section{
     margin: 16px; /*tentar aplicar nas outras sections*/
     margin-bottom: 64px;
     text-align: center;
 
   }
 
-  .principles-article{
+  .framework-article{
     text-align: center;
   }  
 
-  .principles-title{
+  .framework-title{
     font-weight: 500;
-    font-size: 22px;
-    line-height: 32px;
     display: flex;
     align-items: center;
     text-align: center;
     margin: 64px 42px 16px;
   }
   
-  .principles-p {
+  .framework-p {
     font-size: 16px;
     line-height: 28px;
     text-align: center;
