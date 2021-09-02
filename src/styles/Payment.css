@@ -1,18 +1,26 @@
 .section-payment{
   color: #3D3D3D;
   font-weight: 500;
+  display: flex;
+  margin: 98px 181px;
 }
 
 .payment-h2{
   font-size: 22px;
   line-height: 32px;
   font-weight: 500;
+  margin-bottom: 40px;
 }
 
 .payment-p {
   font-size: 16px;
   line-height: 28px;
   font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.picture-payment {
+  margin-right: 44px;
 }
 
 @media (max-width: 360px) {
@@ -20,6 +28,14 @@
   .section-payment{
     margin: 64px 16px;
     text-align: center;
+    flex-direction: column;
+  }
+
+  .picture-payment img {
+    max-width: 312px;
+    max-height: 230px;
+    width: auto;
+    height: auto
   }
 
   .payment-h2 {
