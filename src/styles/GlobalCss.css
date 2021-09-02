@@ -16,11 +16,11 @@ body{
 
 .divider{
   border: 2px solid #DFDFDF;
-  margin: 0px 328px;
+  margin: 0px 262px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 360px) {
   .divider{
-    margin: 16px;
+    margin: 0px 16px;
   }
 }
