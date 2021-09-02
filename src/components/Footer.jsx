@@ -40,8 +40,8 @@ export default function Footer() {
         <picture className="picture-logo">
           <img src={ Logo } alt="Hapu Logo" />
         </picture>
-        <nav>
-          <ul>
+        <nav className="navbar-footer">
+          <ul className="ul-nav">
             <li>
               Share Your Nanny
             </li>
@@ -56,17 +56,17 @@ export default function Footer() {
             </li>
           </ul>
         </nav>
-      </section>
-      <section className="social-icons">
-        <a href='https://www.facebook.com/hapunui' target='_blank'>
-          <img src={facebook} alt='Facebook of Hapu' />
-        </a>
-        <a href='https://twitter.com/hapunui' target='_blank'>
-          <img src={twitter} alt='Twitter of Hapu' />
-        </a>
-        <a href='https://www.instagram.com/hapunui' target='_blank'>
-          <img src={instagram} alt='Instagram of Hapu' />
-        </a>
+        <section className="social-icons">
+          <a href='https://www.facebook.com/hapunui' target='_blank' rel="noreferrer">
+            <img src={facebook} alt='Facebook of Hapu' />
+          </a>
+          <a href='https://twitter.com/hapunui' target='_blank' rel="noreferrer">
+            <img src={twitter} alt='Twitter of Hapu' />
+          </a>
+          <a href='https://www.instagram.com/hapunui' target='_blank' rel="noreferrer">
+            <img src={instagram} alt='Instagram of Hapu' />
+          </a>
+        </section>
       </section>
       <div className="divider-footer"></div>
       <p className="copyright">
