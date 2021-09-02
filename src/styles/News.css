@@ -1,17 +1,21 @@
 .news-section {
   color: #3D3D3D;
   text-align: center;
+  margin: 96px 328px 0px;
 }
 
 .news-title {
   font-weight: 500;
   font-size: 22px;
   line-height: 32px;
+  margin: 40px 40px;
 }
 
 .news-p {
+  margin: 0px -25px 120px;
   font-size: 16px;
   line-height: 28px;
+
 }
 
 @media (max-width: 360px) {
