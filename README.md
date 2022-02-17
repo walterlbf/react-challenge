@@ -5,7 +5,7 @@ Jungle The purpose of this challenge is to give a general idea of how React work
 
 ## Install and Run
 
-- Clone this repository with `git clone https://github.com/FeelipePM/challenge-jungle-devs.git`
+- Clone this repository with `git clone git@github.com:walterlbf/react-challenge.git`
 - Install dependencies using `npm install`
 - Run project in development `npm dev`
 - Run project in production `npm start`
